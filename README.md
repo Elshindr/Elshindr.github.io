@@ -1,30 +1,9 @@
 ## Welcome to my GitHub Pages!
-Student in Computer Science, I am fascinated by web development and its new technologies.
+Feel free to bookmark this to keep an eye on my project updates
 
 ### My frontend projects
 #### [Profile-Card-Component](https://elshindr.github.io/Profile-Card-Component/)
 - A [FrontendMentor](https://www.frontendmentor.io/challenges) challenge to boost my knowledge in **frontend** development
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-
-
 
 ### Support or Contact
 -Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
