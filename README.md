@@ -1,5 +1,5 @@
-## Welcome to my GitHub Pages!
-Feel free to bookmark this to keep an eye on my project updates
+## Nice to meet you.
+Feel free to bookmark this to keep an eye on my project updates.
 
 ### My frontend projects
 #### [Profile-Card-Component](https://elshindr.github.io/Profile-Card-Component/)
