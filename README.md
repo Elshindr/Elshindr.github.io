@@ -1,4 +1,4 @@
-## Nice to meet you.
+## Welcome to my homepage!
 Feel free to bookmark this to keep an eye on my project updates.
 
 ### My frontend projects
