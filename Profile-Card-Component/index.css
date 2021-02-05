@@ -1,0 +1,121 @@
+html,
+body {
+    /* Viewport Height Max*/
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    /* Background Caracts */
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: -750px -600px, 600px 350px;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+
+    /* Fonts Default */
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+}
+
+strong {
+    /* Fonts Caracts */
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+br {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+}
+
+#card {
+    /* Display Card */
+    margin: 150px auto;
+
+    /* Background Card Size */
+    height: 350px;
+    width: 300px;
+
+    /* Background Card Caracts */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px hsl(185, 75%, 39%);
+}
+
+#pattern_img {
+    /* Rounded Background Size */
+    display: block;
+    height: 110px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#white_circle {
+    /* Caracteristiques */
+    background-color: white;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: -50px;
+
+    /* Superposition */
+    position: relative;
+    top: -50px;
+    left: 110px;
+}
+
+#user_img {
+    /* Caracteristiques */
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+
+    /*Superposition */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+#user_info {
+
+    margin: 0px auto;
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    height: 0.1px;
+    background-color: hsla(0, 0%, 59%, 50%);
+    border: none;
+}
+
+#user_stats {
+    display: flex;
+    flex-direction: column;
+}
+
+#nbStat,
+#typeStat {
+    display: grid;
+
+    grid-template-columns: 50px 50px 50px;
+    justify-content: space-around;
+}
+
+
+#typeStat {
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+}
+
+/* Responsive mobile*/
+@media(max-width:375px) {
+    background-position: -750px -600px, center -110px 350px;
+}
