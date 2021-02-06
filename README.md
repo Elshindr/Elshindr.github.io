@@ -1,9 +1,10 @@
 ## Welcome to my homepage!
-Feel free to bookmark this to keep an eye on my project updates.
+Feel free to take a look on my project updates.
 
 ### My frontend projects
 #### [Profile-Card-Component](https://elshindr.github.io/Profile-Card-Component/)
 - A [FrontendMentor](https://www.frontendmentor.io/challenges) challenge to boost my knowledge in **frontend** development
+- You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/Profile-Card-Component) its repository
 
 ### Support or Contact
 -Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
