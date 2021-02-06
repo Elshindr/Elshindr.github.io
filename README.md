@@ -7,16 +7,16 @@ Feel free to take a look on my project updates.
 - You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/Profile-Card-Component) its repository
 
 #### [A Survey page](https://elshindr.github.io/SurveyPage)
--You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/SurveyPage)its repository
+- You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/SurveyPage) its repository
 
 #### [A Landing page](https://elshindr.github.io/ProductLandingPage)
--You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/ProductLandingPage)its repository
+- You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/ProductLandingPage) its repository
 
 #### [A technical documentation page](https://elshindr.github.io/TechnicalDocumentationPage)
--You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/TechnicalDocumentationPage)its repository
+- You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/TechnicalDocumentationPage) its repository
 
 #### [A tribute page](https://elshindr.github.io/TributePage)
--You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/TributePage)its repository
+- You can find [here](https://github.com/Elshindr/Elshindr.github.io/tree/main/TributePage) its repository
 
 
 ### Support or Contact
