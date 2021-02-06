@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Elshindr">
+    <meta name="description" content="FCC_SurveyPage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/svg/static/icons/svg/1161/1161388.svg" />
+</head>
+
+<body>
+    <header>
+        <div id="flex">
+            <h1 id="title">Software Satisfaction Services</h1>
+            <p id="slogan">Keep cool! :)<br>You are in good hands!</p>
+        </div>
+        <hr><br>
+        <p id="description">Let's take a few minute to improve this service!</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <label class="titre" id="name-label" for="name">Name</label>
+            <input id="name" type="text" tabindex="1" placeholder="Enter your name" required>
+            <br>
+            <label class="titre" id="email-label" for="email">Email</label>
+            <input id="email" type="email" tabindex="2" placeholder="Enter your email" required>
+            <br>
+            <label class="titre" id="number-label" for="number">Age</label>
+            <input id="number" type="number" tabindex="3" min="0" max="99" placeholder="0 to 99">
+            <br>
+            <hr>
+            <div id="form-drop">
+                <label class="titre" id="inst-label" for="dropdown">How did you find the installation?</label>
+                <br>
+                <select id="dropdown" tabindex="4" name="installation-difficulty" required>
+                    <option disabled selected value>Select options</option>
+                    <option value="Easy">Easy</option>
+                    <option value="easyEnough">Easy Enough</option>
+                    <option value="medium">Medium</option>
+                    <option value="quitedifficult">Quite Difficult</option>
+                    <option value="difficult">Difficult</option>
+                </select>
+            </div>
+            <br>
+            <hr>
+
+            <p class="titre1">Does it crash often?</p>
+            <div id="form-radio">
+                <label for="never">Never
+                    <input id="never" type="radio" name="crashTest" value="Never">
+                </label>
+                <label for="sometime">Sometime
+                    <input id="sometime" type="radio" name="crashTest" value="Sometime">
+                </label>
+                <label for="often">Often
+                    <input id="often" type="radio" name="crashTest" value="Often">
+                </label>
+                <label for="too-often">Too Often
+                    <input id="too-often" type="radio" name="crashTest" value="too-often">
+                </label>
+            </div>
+            <br>
+            <hr>
+
+            <p class="titre">If you meet some issues, which of theses handly solutions did you tried?</p>
+            <div id="form-check">
+                <label for="check-plugg">Check if your computer is plugged in?
+                    <input id="check-plugg" type="checkbox" tabindex="9" name="checkb" value="yes">
+                </label>
+                <br>
+                <label for="check-no">Turning it off and on?
+                    <input id="check-no" type="checkbox" tabindex="10" name="checkb" value="no">
+                </label><br>
+                <label for="check-maybe">Tried again?
+                    <input id="check-maybe" type="checkbox" tabindex="11" name="checkb" value="maybe"></label>
+                <br>
+                <label for="check-where">The button is it glowing?
+                    <input id="check-where" type="checkbox" tabindex="12" name="checkb" value="where"></label>
+                <br>
+                <label for="check-red">In red?
+                    <input id="check-red" type="checkbox" tabindex="13" name="checkb" value="red"></label>
+                <br>
+                <label for="check-green">In green?
+                    <input id="check-green" type="checkbox" tabindex="13" name="checkb" value="where"></label>
+                <br>
+                <label for="check-purple">Or in purple maybe?
+                    <input id="check-purple" type="checkbox" tabindex="13" name="checkb" value="green"></label>
+            </div>
+            <br>
+            <hr>
+            <div id="comment-area">
+                <label class="titre" for="comment-label">How can we improve the software:</label>
+                <br>
+                <textarea id="comment-label" tabindex="14" name="comments" wrap="soft" maxlength=200 placeholder="Or any suggestions?" cols="30" rows="5">
+                </textarea>
+            </div>
+            <br>
+            <button id="submit" type="submit" tabindex="15">Submits</button>
+        </form>
+
+        <h2>Thank you for your time!</h2>
+
+
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<footer>
+    <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</footer>
+</body>
+</html>

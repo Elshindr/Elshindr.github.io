@@ -1,0 +1,359 @@
+/****** Header ******/
+body {
+    margin: 0px;
+    height: 100%;
+    color: #fcfbfe;
+    font-size: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#header {
+    height: 2rem;
+}
+
+#header p {
+    font-size: medium;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    font-family: 'Abel', sans-serif;
+    background-color: #1d1135;
+    border: 1px solid rgba(118, 73, 254, 0.30);
+    margin-bottom: 0px;
+}
+
+#span-nav {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-right: auto;
+    color: #fcfbfe;
+    padding: 0px;
+}
+
+#header-img {
+    margin-left: 35%;
+    margin-right: 10%;
+    max-width: 100%;
+    height: 2.6em;
+    padding: 1.3em 0.5em;
+}
+
+ul {
+    max-width: 90%;
+}
+
+.nav-li {
+    display: inline;
+    margin: 0 1em;
+    padding: 0 0.5em;
+    list-style: none;
+
+}
+
+.nav-li:hover {
+    background-color: goldenrod;
+    border-radius: 29% 80%;
+
+}
+
+a {
+    color: #fcfbfe;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#notadis-link {
+    font-size: large;
+}
+
+@media (max-width: 600px) {
+    header-img {
+        padding: 0 0.25em;
+    }
+
+    li {
+        margin: 0 0.5em;
+        padding: 0 0.1rem;
+    }
+
+    a {
+        font-size: large;
+    }
+
+    #notadis-link {
+        font-size: medium;
+    }
+}
+
+@media (max-width:450px) {}
+
+
+/****** MAIN ******/
+/*** H1 ***/
+#bloc-h1 {
+    background-color: #1d1135;
+    background-size: cover;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    height: 76vh;
+}
+
+h1 {
+    display: block;
+    padding-top: 200px;
+    text-align: center;
+    color: #fcfbfe;
+    font-size: xx-large;
+}
+
+
+/*** Sections ***/
+section {
+    margin: auto;
+    font-size: medium;
+    padding: 2em 0.4em;
+}
+
+h2 {
+    font-size: x-large;
+    text-shadow: 1px 10px 14px rgba(12, 22, 79, 0.76);
+}
+
+/** You might **/
+#youMight {
+    max-width: 100%;
+    background: linear-gradient(#1d1135, #0c164f);
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+}
+
+#youMight ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+}
+
+#youMight li {
+    list-style: none;
+    padding: 1em 0;
+    text-decoration: overline;
+    text-decoration-color: rgba(118, 73, 254, 0.30);
+}
+
+#bio {
+    align-self: flex-start;
+}
+
+#com {
+    align-self: center;
+}
+
+#exp {
+    align-self: flex-end;
+}
+
+#space {
+    padding-top: 1em;
+    align-self: center;
+    text-align: center;
+}
+
+#youMight span {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    max-width: 80%;
+    background: #fcfbfe;
+    color: #1d1135;
+    border: 1px solid rgba(118, 73, 254, 0.30);
+    border-radius: 50px;
+}
+
+
+
+/** We May **/
+#weMay {
+    background: linear-gradient(#0c164f, #1d1135);
+    display: block;
+    margin: auto;
+    max-height: 100%;
+}
+
+#weMay span {
+    display: block;
+    margin: 10px 50px;
+    text-align: center;
+    padding: 1em;
+    max-width: 80%;
+}
+
+hr {
+    border: 1px solid rgba(118, 73, 254, 0.30);
+}
+
+#div-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-com {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em;
+    padding: 1em 1em;
+    max-width: 100%;
+    border-top: 0px;
+    border-bottom: 1px solid rgba(100, 73, 254, 1);
+    border-radius: 0px 0px 50px 50px;
+    height: 100%;
+    font-size: small;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+    background: #fcfbfe;
+    color: #1d1135;
+    border: 1px solid rgba(118, 73, 254, 0.30);
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+    height: 30px;
+    padding: 1em 1em;
+}
+
+.div-com p {
+
+    display: block;
+    margin: 0px;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    padding: 1em 1em;
+}
+
+/** Stay in Touch **/
+#contact {
+    background: linear-gradient(#1d1135, #0c164f);
+    display: block;
+    margin: auto;
+}
+
+
+#flex-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-video {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+#form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+}
+
+#email {
+    border: 3px solid goldenrod;
+    border-radius: 50px;
+    padding: 0.9em;
+    font-size: medium;
+}
+
+#submit {
+    display: block;
+    font-size: xx-small;
+    margin-left: 10px;
+    background: #449D2E;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #449D2E;
+    border-radius: 50%;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+#email:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#email:valid {
+    border: 10px solid #449D2E;
+    ;
+}
+
+#email:invalid:focus {
+    outline: 0;
+    border: 10px solid firebrick;
+}
+
+#div-video p {
+    display: block;
+    margin: 0;
+    text-align: justify;
+    padding: 1em;
+    max-width: 80%;
+    border: 1px solid rgba(118, 73, 254, 0.30);
+    border-radius: 50px;
+}
+
+#video {
+    display: block;
+    margin: 0 20px 0 0;
+    max-width: 90%;
+    margin: 0 5px;
+}
+
+@media all and (max-width: 690px) {
+    #div-video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        font-size: small;
+    }
+
+    #div-video p {
+        margin: 20px;
+    }
+
+    #video {
+        max-width: 100%;
+    }
+}
+
+
+/**** Footer ****/
+footer {
+    display: block;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background: #1d1135;
+    border: 1px solid rgba(118, 73, 254, 0.30);
+    font-size: small;
+}
+
+footer a {
+    font-size: small;
+}

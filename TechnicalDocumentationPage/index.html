@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Elshindr">
+    <meta name="description" content="FCC_TechnicalDocumentationPage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnicalDocumentation Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <header><a href="#Documentation_C" id="nlink">C# Doc</a></header>
+        <a href="#Variables" class="nav-link">Variables</a>
+        <a href="#Entrées/Sorties" class="nav-link">Entrées/Sorties</a>
+        <a href="#Opérations" class="nav-link">Opérations</a>
+        <a href="#Conditions" class="nav-link">Conditions</a>
+        <a href="#Boucles" class="nav-link">Boucles</a>
+        <a href="#Fonctions" class="nav-link">Fonctions</a>
+    </nav>
+
+
+    <main id="main-doc">
+        <h1 id="Documentation_C">Documentation C#</h1>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Une variable se déclare en 3 étapes: son type, son nom puis sa valeur.<br>Par exemple:</p>
+            <pre><code>int tonNomDeVariable = 22;</code></pre>
+            <ul>
+                <li>Où <span class="command">int</span> est le type de variable. </li>
+                <li>Avec <span class="command">tonNomDeVariable</span> est le nom de variable.</li>
+                <li>Et <span class="command">22</span> la valeur affectée à la variable.</li>
+            </ul>
+            <h2>Les variables numériques</h2>
+            <ul>
+                <li>byte: Peut contenir un entier entre 0 et 255.</li>
+                <li>short: Peut contenir un entier entre -32768 et 32767.</li>
+                <li>int: Peut contenir un entier entre -2147483648 et 2147483647.</li>
+                <li>long: Peut contenir un entier entre -9223372036854775808 et 9223372036854775807.</li>
+                <li>float: Peut contenir un réel entre -3,402823e38 et 3,402823e38. </li>
+                <li>double: Peut contenir un réel entre -1,79769313486232e308 et 1,79769313486232e308.</li>
+                <li>decimal: Peut contenir un nombre décimal convenant particulièrement aux calculs financiers (en raison de ses nombres significatifs après la virgule)</li>
+            </ul>
+            <pre>
+            <code>byte tresPetitEntier = 254;
+short petitEntier = 56;
+int entier = -1;
+long tresGrandEntier = 999999;
+float reel = -1.2f; // "f" indique que la valeur est un float
+double reelSignificatif = -256d; // "d" indique que la valeur est un double
+decimal reelTresSignificatif = 4785.1m;// "m" indique que la valeur est un decimal</code></pre>
+            <h2>Les variables de caractères</h2>
+            <ul>
+                <li>char: Peut contenir une lettre que l'on appel caractère.</li>
+                <li>string: Peut contenir des mots ou des phrases, c'est que l'on appel une chaîne de caractères.</li>
+            </ul>
+            <code>char lettre = 'a';
+string unePhrase = "Salut! Bien les vacances?"</code>
+            <h3>Les variables booléennes</h3>
+            <ul>
+                <li>bool: Peut contenit que deux sortes de valeur: vraie ou faux.</li>
+            </ul>
+            <pre><code>bool cVrai = true;
+bool cFaux = false;</code></pre>
+            <h2>Conventions des noms de variables</h2>
+            <p>Le nom de variable est libre. C'est à dire que l'on peut choisir n'importe quel mot tant que les conventions suivantes sont respectées:</p>
+            <ul>
+                <li>Ne jamais commencer par un chiffre.</li>
+                <li>Ne contient pas d'espace.</li>
+                <li>Contient des caractères alphabétiques. Et éventuellement des chiffres et le caractère <span class="command">"_"</span>.</li>
+                <li>Pas de caractère accentués.</li>
+            </ul>
+            <p>
+                Il existe plusieurs manières de définir proprement un nom de variable. Si un nom de variable doit contenir plusieurs mots, il est courant de les définir par l'une de ces deux manières:
+            </p>
+            <pre><code>string maSuperChaineInfernale = "1ere lettre en minuscule, les autres 1ere en Masjuscules. C'est l'appellation camelCase"
+                
+string ma_super_chaine_Infernale = "Entre chaque mot, on place un '_' au lieu de ' '."</code></pre>
+            <p>Le plus important c'est d'être <strong>explicite</strong> et <strong>constant</strong> dans son style de nommage.</p>
+
+            <h3>L'affectation</h3>
+            <p>Une affectation c'est donner une valeur à une variable.
+                La déclaration de la variable, c'est à dire <strong>type + nom</strong>, peut se faire indépendament de son <strong>initialisation</strong>. C'est à dire:
+            </p>
+            <pre><code>int nombre;
+nombre = 87;
+</code></pre>
+            <p>
+                L'affection fonctionne de droite vers la gauche. C'est à dire que la valeur à droite s'enregistre dans la variable de gauche. Ainsi, il est possible de modifier le contenu de ses variables au fur et à mesure du programme:
+            </p>
+            <pre><code>int a = 5;
+int b = 10;
+a = b // Maintenant a = 10
+</code></pre>
+        </section>
+
+        <section class="main-section" id="Entrées/Sorties">
+            <header>Entrées/Sorties</header>
+            <h2>Entrée</h2>
+            <p> On appel <strong>entrées</strong> toutes informations rentrées dans le programme en dehors des variables qui lui sont propres. Par exemple, une saisie au clavier. <br>Au moment d'une demande de saisie, le programme va se mettre en pause dans l'attente d'une réponse. Si l'information saisie correspond à ce que le programme attendait, elle va être enregistrée dans une variable.
+                En C#, la <strong>saisie</strong> s'effectue soit:</p>
+            <ul>
+                <li>Avec la commande <span class="command">Console.ReadLine()"</span>Pour entrer une chaine de caractère et valider l'entrée.</li>
+                <li>Avec la commande <span class="command">Console.ReadKey().KeyChar"</span>. Pour entrer un seul caractère et se valide tout seul.</li>
+            </ul>
+            <p>
+                Pour utiliser cette commande, il faut intégrer sa <strong>bibliothéque</strong> en début de programme, qui s'appelle <span class="command">"System"</span>.
+            </p>
+            <pre><code>using System;
+
+    //Tout plein de lignes de codes ...
+    string message;
+    message = Console.ReadLine(); // Attend une saisie de type string
+
+    //Attend une saisie de type char
+    char lettreSecret;
+    lettreSecret = Console.ReadKey.KeyChar; 
+
+    //Attend une saisie de type int
+    int nombre;
+    nombre = int.Parse(Console.ReadLine()); 
+
+    //Attend une saisie de type float
+    float reel;
+    reel = float.Parse(Console.ReadLine()); 
+
+            </code></pre>
+            <h2>Sortie</h2>
+            <p>On appel <strong>sorties</strong> toutes informations que le programme va nous donner. En mode console, c'est principalement afficher une valeur qu'on lui a demandé. <br>
+                En C#, l'affichage s'effectue soit: </p>
+            <ul>
+                <li><span class="command">Console.Write()</span>: qui affiche le resultat sans retour à la ligne</li>
+                <li><span class="command">Console.WriteLine()</span> qui va afficher le résultat puis un retour à la ligne. Ici encore, il faut intégrer la bibliothèque
+                </li>
+            </ul>
+            <pre><code>using System;
+    int nombre = 4;
+
+    Console.Write(nombre); // Affiche 4.
+    // Affiche: Salut! Moi, j'aime le ketshup!
+    Console.Write("Salut! Moi, j'aime le ketshup!";) 
+    
+    // Affiche avec un retour à la ligne.
+    Console.Write("Salut! Moi, j'aime les retours à la ligne!");  
+    Console.Write(3); // Affiche 3.</code></pre>
+        </section>
+
+        <section class="main-section" id="Opérations">
+            <header>Opérations</header>
+            <p>Un programme effectue des opérations arithmétiques et logiques.</p>
+            <h2>Calcul arithmétique</h2>
+            <p>Se réalise entre des variables ou des valeurs numériques.<br>
+                L'affection s'effectue de la droite vers la gauche. Si la variable à gauche contenait une valeur avant sa nouvelle affection, elle est remplacée. Cependant, on peut afficher directement le résultat à l'écran sans l'enregistrer dans une variable. Aussi, il faut prendre en compte les types de variables utilisés pour le calcul. <br> Les opérations arithmétiques en C# sont les suivantes:
+            </p>
+            <ul>
+                <li>+ : Addition</li>
+                <li>- : Soustraction</li>
+                <li>* : Multiplication</li>
+                <li>/ : Division</li>
+                <li>% : Modulo: Reste de la division.</li>
+                <li>() : Permet d'ordonner le sens des calculs.</li>
+            </ul>
+            <pre><code>
+    float note1 = 15.5f;
+    float note2 = 8.5f;
+    float moyenne;
+    moyenne = (note1 + note2) / 2;
+
+    int total;
+    total = 0;
+    total = total + 1; // total = 1
+    total += 1; //équivalent : total = total + 1;
+    total++; //équivalent : total = total + 1;
+
+    int result, reste;
+    result = 14 / 2; // result = 7 la division étant dans un entier, seule la partie entière est récupérée
+    reste = 14 % 2; // reste contiendra 0</code></pre>
+
+            <h2>Les comparateurs mathématiques</h2>
+            <p>Il s'agit de la capacité de votre programme à réaliser des expressions logiques pour utiliser ses résultats. Il s'agit d'opérations dont le résultat retourne vrai ou faux. Il est possible de les utiliser sur des variables numériques, chaînes ou booléennes.</p>
+            <ul>
+                <li> a == b : Si a = b, alors c'est vrai. Sinon, c'est faux: ils sont différents.</li>
+                <li>a != b : Si a ≠ b, alors c'est vrai. Sinon, c'est faux: ils sont égaux.</li>
+                <li>a > b :Si a > b, alors c'est vrai. Sinon, c'est faux: b est supérieur à a.</li>
+                <li>a &lt; b : Si a &lt; b, alors c'est vrai. Sinon, c'est faux: b est inférieur et différent de a.</li>
+                <li>a >= b : Si a ≥ b, alors c'est vrai. Sinon, c'est faux, b est supérieur à a.</li>
+                <li> a &lt;= b : Si a &lt;= b, alors c'est vrai. Sinon, c'est faux: b est supérieur et différent de a.</li>
+            </ul>
+            <h2> Les comparateurs logiques</h2>
+            <ul>
+                <li>Opérateur ET: a &amp;&amp; b : Si a et b sont vrais, alors c'est vrai. Sinon, c'est faux.</li>
+                <li>Opérateur OU: a || b : Si a et/ou b est/sont vrais, alors c'est vrai. Sinon, c'est faux.</li>
+                <li>Opérateur NON: !a : Si a est faux, alors c'est vrai. Si a est vrai, alors c'est faux.</li>
+            </ul>
+            <pre><code>int A = 3, B = 2, C = 5;
+bool test = (A > B &amp;&amp; (A + B == C));
+</code></pre>
+            <p>Vrai puisque A = 3 est supérieur à B = 2, et A+Bv=5 dont à C, donc la variable test va recevoir la valeur true</p>
+        </section>
+
+        <section class="main-section" id="Conditions">
+            <header>Conditions</header>
+            <h2>if else</h2>
+            <p>
+                Un programme peut executer des instructions sous certaines conditions. Afin de savoir si l'instruction va être executer, une opération logique va être évaluée sous la condition requise. Si la condition est respectée alors l'instruction va être executée. Sinon, elle ne le sera pas ou sera évaluée pour une autre alternative.
+            </p>
+            <pre><code>
+        int a = 10;
+        int b = 3;
+                
+        // Syntaxe ne contenant que le bloc 'if'
+        if (a == b)
+         {
+            // instructions exécutées si la condition est vraie
+            Console.WriteLine("a est b sont égaux!");
+        }
+
+        // Syntaxe contenant le bloc 'if' et le bloc 'else'
+        if (a == b)
+        {
+            //instructions exécutées si vraie
+            Console.WriteLine("a est b sont égaux!");
+        }
+        else
+        {
+            //instructions exécutées si non
+            Console.WriteLine("Ou pas.");
+        }
+            </code></pre>
+            <p> Il est d'ailleur possible d'imbriquer d'autres conditions dans les conditions if ou else.</p>
+            <h2>switch</h2>
+            <p>Il existe une autre manière d'écrire des conditions qui permet à partir de résultat d'une même variable différentes alternatives de réponses.</p>
+            <pre><code>switch (variable) {
+    case valeur1:
+        // traitements exécutés si variable == valeur1
+        break;
+    case valeur2:
+        // traitements exécutés si variable == valeur2
+        break;
+        ...
+    case valeurN:
+        // traitements exécutés si variable == valeurN
+        break;
+    default :
+        //Cas par défaut 
+        break;
+}</code></pre>
+        </section>
+
+        <section class="main-section" id="Boucles">
+            <header>Boucles</header>
+            <p>Il s'agit de la possibilité de répéter un nombre de fois définie une séquence d'instructions. La séquence est placée dans un bloc de conditions et d'instructions. Une fois que les conditions pour entrer ou sortir de la boucle ne sont plus valides, la séquence ne se répéte plus.</p>
+            <h2>Tests en début de boucle.</h2>
+            <p>Il faut déterminer une condition d'entrée. On ne rentre pas dans la boucle si la condition au départ n'est pas validée.Il s'agit d'une boucle universelle qui peut servir dans tout les cas de figures.</p>
+            <pre><code>while(condition_pour_enter_dans_la_boucle) {
+            // traitements répétés tant que la condition est vraie
+            ...
+}</code></pre>
+            <h2>Test en fin de boucle</h2>
+            <p>
+                Pour sortir, il faut une condition de sortie. Le programme rentre dans cette boucle au moins une fois dedans, puis s'execute autant de fois qu'il faudra pour remplir la condition de sortie.
+            </p>
+            <pre>
+<code>do {
+    // traitements répétés tant que la condition est vraie
+    ...
+} while (condition_pour_sortir_de_la_boucle);
+</code></pre>
+            <h2>Boucle for</h2>
+            <p>La boucle "for" fonctionne comme un <strong>compteur</strong>. Elle se présente de la manière suivante:</p>
+            <pre>
+            <code>
+for (initialisation; condition_pour_boucler; opération_répétée) {
+    // traitements répétés tant que la condition est vraie
+    ...
+}</code></pre>
+            <ul>
+                <li>initialisation: On initialise une variable pour le compteur, par exemple i = 0; </li>
+                <li>condition_pour_boucler : On vérifie que la variable initialisée i respecte bien la condition pour boucler, par exemple i != 12</li>
+                <li>opération_répétée : A chaque tour, cette opération est executée sur la variable servant compteur avant que le traitement soit effectué, on peut avoir i= i + 1, ou i++</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Fonctions">
+            <header>Fonctions</header>
+            <h2>Fonctions Mathématiques</h2>
+            <ul>
+                <li>Math.PI: Donne la valeur du nombre PI (type double).</li>
+                <li>Math.Pow(nombre, puissance): Donne le nombre élevé à la puissance.</li>
+                <li>Math.Abs(nombre): Donne la valeur absolue d'un nombre (le nombre sans son signe).</li>
+                <li>Math.Max(val1, val2): Donne la plus grande des 2 valeurs.</li>
+                <li>Math.Min(val1, val2): Donne la plus petite des 2 valeurs.</li>
+                <li>Math.Round(nombre): Donne l'entier le plus proche.</li>
+                <li>Math.Sqrt(nombre): Donne la racine carrée d'un nombre.</li>
+            </ul>
+
+            <h2>Fonction sur chaines</h2>
+            <p>Il est aussi possible de manipuler les chaînes de caractères avec les opérations suivantes.</p>
+            <ul>
+                <li>chaine1.Length :
+                    Donne la longueur de la chaîne.
+                <li>chaine1.Contains(chaine2) :
+                    Vrai si chaine2 est contenu dans chaine1.</li>
+                <li>chaine1.StartsWith(chaine2) :
+                    Vrai si chaine1 commence par chaine2.</li>
+                <li>chaine1.EndsWith(chaine2) :
+                    Vrai si chaine1 se termine par chaine2.</li>
+                <li>chaine1.Equals(chaine2) :
+                    Vrai si les 2 chaînes sont égales (privilégiez Equals pour comparer les chaînes plutôt que ==).</li>
+                <li>chaine1.CompareTo(chaine2) :
+                    Comparaison par rapport à l'ordre alphabétique :
+                    -1 si chaine1 avant chaine2
+                    1 si chaine1 après chaine2
+                    0 si chaine1 identique à chaine2</li>
+                <li>chaine1.IndexOf(chaine2) :
+                    Donne la position de chaine2 dans chaine1 (sachant que le 1er caractère est à la position 0). -1 si chaine2 n'est pas trouvé.</li>
+                <li>chaine1.IndexOf(chaine2, debut) :
+                    Donne la position de chaine2 dans chaine1, en cherchant à partir de la position debut (sachant que le 1er caractère est à la position 0).</li>
+                <li>chaine1.Insert(debut, chaine2) : Insère chaine2 dans chaine1 à partir de la position debut.</li>
+                <li>chaine1.Replace(oldchaine,newchaine) : Donne une chaîne identique à chaine1 mais avec toutes les occurrences oldchaine remplacées par newchaine (oldchaine et newchaine sont de type string)</li>
+                <li>chaine1.Replace(oldcarac,newcarac):
+                    Donne une chaîne identique à chaine1 mais avec toutes les occurrences oldcarac remplacées par newcarac (oldcarac et newcarac sont de type char).</li>
+                <li>chaine1.Substring(debut):
+                    Permet de récupérer une sous-chaîne issue de l'extraction dans chaine1 à partir de la position début jusqu'à la fin.</li>
+                <li>chaine1.Substring(debut, longueur):
+                    Permet de récupérer une sous-chaîne issue de l'extraction dans chaine1 à partir de la position début et avec longueur comme nombre de caractères.</li>
+                <li>chaine1.ToLower() :
+                    Permet d'obtenir la même chaîne tout en minuscule.</li>
+                <li>chaine1.ToUpper() : Permet d'obtenir la même chaîne tout en majuscule</li>
+            </ul>
+            <pre>
+            <code>static void main(string[]args)
+{
+    string src;
+    string str;
+    Console.WriteLine("C'est magique!");
+    src = Console.ReadLine();
+    str = src.Replace(" ", "_");// Remplace les " " par "_" 
+    Console.WriteLine(str);
+    Console.ReadKey();
+}</code></pre>
+
+            <p>Enfin, il existe d'autres fonctions afin de manipuler divers objets.</p>
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body></html>
