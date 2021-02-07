@@ -1,100 +1,103 @@
-body{
-    font-family: "segoe UI", Tahoma, Geneva, sans-serif;
-    
-}
 #main {
-    background-color: #D9D6D3;
-    border: 1px solid #51A94C;
-    border-radius: 0.5rem;
-    text-align: center;
+    /* Text Features */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     color: #26231D;
-    padding: 2rem 0;
+
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+
+    /* Spacing */
+    padding-top: 1.5rem;
+    margin-top: 1em;
 }
 
 #title {
-    color: #51A94C;
+    /* Text Features */
+    color: purple;
     font-size: xx-large;
-    margin-bottom: 1.5rem;
+    font-weight: 600;
 }
 
 hr {
     border: 1px solid #FFFFFF;
-    padding: 0 5rem;
 }
 
 #img-div {
-    background-color: #FFFFFF;
-    padding: 0 0.5rem;
+    /* Spacing */
+    padding: 0rem;
     margin: auto 1rem;
+    
+    border: 1px solid purple;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px lightgray;
 }
 
-#image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+#my-img {
+    border-radius: 10px;
 }
 
 #img-caption {
+    /* Text Features */
+    font-weight: 300;
+
+    /* Spacing */
     padding: 1rem;
-    margin-bottom: 4rem;
 }
 
-#tribute-info {
-    margin: auto 1rem;
-}
 
 h2 {
-    color: #51A94C;
+    /* Text Features */
+    color: purple;
     font-size: large;
+    
+    padding-top: 1em;
 }
 
 ul {
+    /* Text Features */
+    text-align: left;
+    
+    /* Spacing */
     margin: auto;
     max-width: 55rem;
-   list-style: none;
-}
-li::before {
-    content: "\25AA"; 
-    color: #51A94C;
-    display: inline-block; 
-    width: 1em;
 }
 
-
-li {
+blockquote {    
+    /* Text Features */
     text-align: left;
-    line-height: 160%;
-    padding: 1rem 0.5rem;
-}
-
-blockquote {
+    
+    /* Spacing */
     max-width: 55rem;
-    margin: auto;
-    text-align: left;
+    padding: 1em;
 }
 
 h3 {
+    /* Text Features */
     font-size: large;
     padding-top: 2rem;
 }
 
-
 footer {
+    /* Text Features */
     float: right;
     font-size: 0.7rem;
-    display: block;
+    
+    /* Spacing */
     max-width: 150%;
-    margin: auto;
     padding: 0.2rem 1rem;
 }
+#link1, #link2, #tribute-link{
+    color: rebeccapurple;
+}
 
-a {
-    color: #69BA65;
+#link1:hover,#link2: hover, #tribute-link:hover {
+    /* Text Features */
+    color: mediumpurple;
     text-decoration: none;
 }
 
-a:hover {
-    color: teal;
-    text-decoration: none;
-}
+
+
+
+
