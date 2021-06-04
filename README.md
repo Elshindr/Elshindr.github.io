@@ -6,7 +6,7 @@ Feel free to take a look on my project updates.
 - Afin d'aider à la numérisation de l'ensemble des médiathéques de la Vienne, le service InfoTech Services 86 a mis en place le développement de plusieurs applications. L'application présentée ici est un gestionnaire permettant de gérer les données du personnels des médiathèques selon leur service ainsi que leurs absences.
 - lien de la [documentation technique](https://github.com/Elshindr/Elshindr.github.io/blob/main/Projet_MediaTek86/DocumentationTechnique/Help/index.html)
 - lien du [projet](https://github.com/Elshindr/Cshp_Projects/tree/main/CNED/Projet_CNED)
-- lien [video présentation](https://github.com/Elshindr/Elshindr.github.io/blob/main/Projet_MediaTek86/Video-IntroductionApplication.mkv)
+- lien [video présentation](https://github.com/Elshindr/Elshindr.github.io/blob/main/Projet_MediaTek86/Video/Video-IntroductionApplication.html)
 
 
 ### My frontend projects
