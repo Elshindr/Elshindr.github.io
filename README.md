@@ -1,4 +1,3 @@
-## Hi!
 Feel free to take a look on my project updates.
 
 
