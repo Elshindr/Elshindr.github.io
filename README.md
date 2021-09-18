@@ -40,19 +40,19 @@ Feel free to take a look on my project updates.
 - A [FrontendMentor](https://www.frontendmentor.io/challenges) challenge to boost my knowledge in **frontend** development
 - [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/Profile-Card-Component)
 - HTML, CSS, Boostrap
-- 
+
 #### [Survey page](https://elshindr.github.io/SurveyPage)
 - [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/SurveyPage)
 - HTML, CSS, Boostrap
-- 
+
 #### [Landing page](https://elshindr.github.io/ProductLandingPage)
 - [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/ProductLandingPage)
 - HTML, CSS, Boostrap
-- 
+
 #### [Technical documentation page](https://elshindr.github.io/TechnicalDocumentationPage)
 - [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/TechnicalDocumentationPage)
 - HTML, CSS, Boostrap
-- 
+
 #### [Tribute page](https://elshindr.github.io/TributePage)
 - [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/TributePage)
 - HTML, CSS, Boostrap
