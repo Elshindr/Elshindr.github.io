@@ -1,19 +1,13 @@
 Feel free to take a look on my project updates.
 
 
-### [MyHeadacheDiary](https://elshindr.github.io/MyHeadacheDiary)
+### [MyHeadacheDiary](https://elshindr.github.io/MyHeadacheDiary) ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/MyHeadacheDiary?style=for-the-badge)
 #### An utility diary for track your headaches
 - [repository](https://github.com/Elshindr/MyHeadacheDiary)
 - JavaFx, Scene Builder, XML
 
 
-### [MyFileRenamer](https://elshindr.github.io/MyFileRenamer)
-#### An utility for rename several files easily
-- [repository](https://github.com/Elshindr/MyFileRenamer)
-- JavaFx, Scene Builder
-
-
-### [MediaTek86](https://elshindr.github.io/MediaTek86/)
+### [MediaTek86](https://elshindr.github.io/MediaTek86/) ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/MediaTek86?style=for-the-badge)
 #### A manager who manage data of a staff according to their service and their absences.
 - [documentation](https://elshindr.github.io/MediaTek86/DigimediaTek86/bin/DocumentationTechnique_Doxygen/html/index.html)
 - [repository](https://github.com/Elshindr/MediaTek86)
@@ -22,13 +16,18 @@ Feel free to take a look on my project updates.
 - Cshp, MySQL, Doxygen
 
 
-### [SymfonyPlayground](https://elshindr.github.io/MySymfonyPlayground/)
+### [SymfonyPlayground](https://elshindr.github.io/MySymfonyPlayground/) ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/MySymfonyPlayground?style=for-the-badge)
 #### A Symfony website playground to tests 
 - Currently it is a kind of vlog for travels
 - lien du [projet](https://github.com/Elshindr/MySymfonyPlayground)
 - Web project for my seconde grade of the BTS SIO
 - PHP, mySQL, Twigg, Doctrine, Symfony
 
+
+### [MyFileRenamer](https://elshindr.github.io/MyFileRenamer)
+#### An utility for rename several files easily
+- [repository](https://github.com/Elshindr/MyFileRenamer)
+- JavaFx, Scene Builder
 
 ### [Frontend tests](https://github.com/Elshindr/Front_Exercices)
 #### [Profile-Card-Component](https://elshindr.github.io/Front_Exercices/Profile-Card-Component/)
