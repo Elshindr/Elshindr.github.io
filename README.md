@@ -15,7 +15,7 @@ Feel free to take a look on my project updates.
 
 ### [MediaTek86](https://elshindr.github.io/MediaTek86/)
 #### A manager who manage data of a staff according to their service and their absences.
-- [documentation](https://github.com/Elshindr/MediaTek86/tree/main/Documentations/DocumentationTechnique_Doxygen)
+- [documentation](https://elshindr.github.io/MediaTek86/DigimediaTek86/bin/DocumentationTechnique_Doxygen/html/index.html)
 - [repository](https://github.com/Elshindr/MediaTek86)
 - [Video](https://github.com/Elshindr/MediaTek86/tree/main/Documentations/Video/src)
 - Year-end project for my first grade of the BTS SIO
