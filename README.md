@@ -2,7 +2,7 @@ Feel free to take a look on my project updates.
 
 ### [Android MediaTek86Formations](https://elshindr.github.io/Android_MediaTek86Formations/) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/Android_MediaTek86Formations?style=for-the-badge)
-#### An utility diary for track your headaches
+#### An android app for acces onlines videos formations
 - [documentation](https://elshindr.github.io/Android_MediaTek86Formations/docTech/html/index.html)
 - [repository](https://github.com/Elshindr/Android_MediaTek86Formations)
 - Android, Java, PHP, JUnit, Expresso, MySQLite, API REST, Doxygen
