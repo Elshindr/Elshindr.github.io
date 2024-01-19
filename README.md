@@ -1,5 +1,21 @@
 Feel free to take a look on my project updates.
 
+### AroundTech_v2
+![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/AroundTech_v2?style=for-the-badge)
+#### An web app Spring - React
+- [repository](https://github.com/Elshindr/AroundTech_v2)
+- Java, Spring Security JPA, React, MySql 
+
+### AroundTech_v1
+#### An web app NextJS
+- [repository](https://github.com/Elshindr/AroundTech-NextJs)
+- NextJS, Prisma
+  
+### Memopuce 
+#### An web app Angular
+- [repository](https://github.com/Elshindr/MemoPuce-React)
+- Angular, Typescript, Mysql
+
 ### [Android MediaTek86Formations](https://elshindr.github.io/Android_MediaTek86Formations/) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/Android_MediaTek86Formations?style=for-the-badge)
 #### An android app for acces onlines videos formations
@@ -41,27 +57,3 @@ Feel free to take a look on my project updates.
 - lien du [projet](https://github.com/Elshindr/MySymfonyPlayground)
 - Web project for my seconde grade of the BTS SIO
 - PHP, mySQL, Twigg, Doctrine, Symfony
-
-
-### [Frontend tests](https://github.com/Elshindr/Front_Exercices)
-#### [Profile-Card-Component](https://elshindr.github.io/Front_Exercices/Profile-Card-Component/)
-- A [FrontendMentor](https://www.frontendmentor.io/challenges) challenge to boost my knowledge in **frontend** development
-- [repository](https://github.com/Elshindr/Elshindr.github.io/Front_Exercices/tree/main/Profile-Card-Component)
-- HTML, CSS, Boostrap
-
-#### [Survey page](https://elshindr.github.io/Front_Exercices/SurveyPage)
-- [repository](https://github.com/Elshindr/Elshindr.github.io/Front_Exercices/tree/main/SurveyPage)
-- HTML, CSS, Boostrap
-
-#### [Landing page](https://elshindr.github.io/Front_Exercices/ProductLandingPage)
-- [repository](https://github.com/Elshindr/Elshindr.github.io/tree/main/ProductLandingPage)
-- HTML, CSS, Boostrap
-
-#### [Technical documentation page](https://elshindr.github.io/TechnicalDocumentationPage)
-- [repository](https://github.com/Elshindr/Elshindr.github.io/Front_Exercices/tree/main/TechnicalDocumentationPage)
-- HTML, CSS, Boostrap
-
-#### [Tribute page](https://elshindr.github.io/Front_Exercices/TributePage)
-- [repository](https://github.com/Elshindr/Elshindr.github.io/Front_Exercices/tree/main/TributePage)
-- HTML, CSS, Boostrap
-
